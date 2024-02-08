@@ -1,27 +1,37 @@
-# WorkAdventure Map Starter Kit
+# TA Swiss Starter Map
 
-![map](./map.png)
+Basiert auf dem Starterkit von WorkAdventure / [WorkAdventure](https://workadventu.re).
 
-This is a starter kit to help you build your own map for [WorkAdventure](https://workadventu.re).
-
-To understand how to use this starter kit, follow the tutorial at [https://workadventu.re/map-building](https://workadventu.re/map-building).
+Um zu verstehen, wie man dieses Starterkit benutzt, folgt der Anleitung unter [https://workadventu.re/map-building](https://workadventu.re/map-building).
 
 ## Structure
 * *public*: Static files like PDFs or audio files
 * *src*: Scripts files
 * *tilesets*: All tilesets
 * *map.tmj*: Map file
-* *map.png*: The map thumbnail displayed on the in-game map information
+* *map.png*: The map thumbnail displayed on the in-game map information / we recommend using 500x500 images for the map thumbnails.
 
-If you want to use more than one map file, just add the new map file on root or in a folder.
+Wenn du mehr als eine Map-Datei verwenden möchtest, füge die neue Map-Datei einfach im Stammverzeichnis oder in einem Ordner hinzu.
 
-we recommend using 500x500 images for the map thumbnails.
-
-If you are going to create custom websites to embed in the map, please reference the HTML files in the `input` option in *vite.config.js*.
+Wenn du benutzerdefinierte Webseiten erstellst, um sie in die Karte einzubetten, verweise bitte auf die HTML-Dateien im Ordner `input` option in *vite.config.js*.
 
 ## Requirements
 
 Node.js version >=17
+
+## Clone to Desktop
+
+1. GitHub Desktop installieren (https://desktop.github.com/)
+2. Zum jeweiligen Repository in den Tab 'Code' switchen
+3. Dort auf das Dropdown Menu bei 'Code' auf 'Open with Github Pages'
+
+![image](https://github.com/dezentrum/ta_swiss/assets/69964846/d9b4b1e0-849e-4b82-a607-8fcfebb06fb2)
+
+4. Wenn gefragt, das Repository 'Clonen' - das sorgt dafür, dass es eine lokale Kopie auf deinem Laptop vom Code aus Github gibt.
+   
+![image](https://github.com/dezentrum/ta_swiss/assets/69964846/ddd036c2-8c00-40cb-ac73-2034e18286ae)
+
+6. Dem Tutorial von WorkAdventure weiter folgen (https://docs.workadventu.re/map-building/tiled-editor/#loading-the-map-in-tiled)
 
 ## Installation
 
